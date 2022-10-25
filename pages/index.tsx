@@ -37,15 +37,14 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          {/* <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          <Link href="/next-auth">
+            <a className={styles.card}>
+              <h2>Next Auth &rarr;</h2>
+              <p>NextAuthを使った認証管理</p>
+            </a>
+          </Link>
 
-          <a
+          {/* <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -53,7 +52,7 @@ const Home: NextPage = () => {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a> */} 
+          </a>  */}
         </div>
       </main>
 
